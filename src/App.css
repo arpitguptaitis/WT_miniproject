@@ -1,0 +1,240 @@
+.App {
+  text-align: center;
+  background-color:black;
+  width: 100%;
+  height: 100vh;
+  
+}
+.log{
+  background-color:orangered;
+}
+
+h1{
+  color:orange;
+  text-decoration: underline;
+  font: size 80px;
+  text-align: center;
+
+}
+h2{
+  color:black;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  
+}
+.image-container{
+  display:block;
+  width: 400%;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: orange;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.login-container{
+  background-color: orange;
+  text-align: center;
+  font-size: 70px;
+  /* text-decoration: underline; */
+
+}
+.signup-container{
+  background-color: orange;
+  text-align: center;
+  font-size: 70px;
+
+}
+.hungry{
+  background-color: orange;
+
+  
+
+}
+h2,h3{
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: xx-large;
+  
+}
+
+
+/* Styles for the entire app container */
+.hungry {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: orange;
+  overflow: auto;
+}
+
+/* Style for the search input and button */
+/* input[type="text"] {
+  width: 200px;
+  padding: 5px;
+  font-size: 16px;
+} */
+
+button {
+  font-size: 9px;
+  padding: 5px 10px;
+  background-color: orange;
+  color: white;
+}
+
+/* Style for the restaurant list */
+.restaurant-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 0;
+  justify-content: center;
+}
+
+/* Style for each restaurant entry */
+.restaurant-entry {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: yellow;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Change the box shadow color to black */
+}
+
+/* Style for the restaurant image */
+.restaurant-image img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  
+  
+
+}
+
+/* Style for the restaurant details */
+.restaurant-details {
+  padding: 10px;
+  text-align: right;
+}
+
+/* Additional styles as needed */
+.dishes-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+
+.dish-box {
+  width: 48%;
+  margin-bottom: 20px;
+  border:1px solid orange;
+  background-color: orange;
+  text-align: center;
+}
+
+.cart-container {
+  margin-top: 40px;
+}
+
+.cart-item-box {
+  border: 1px solid orange;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: greenyellow;
+}
+.finalize{
+  text-align: center;
+  font-weight: bold;
+}
+.india{
+  background-color: yellow;
+}
+h3{
+  background-color: white;
+}
+h4{
+  font-size: larger;
+  text-decoration: underline;
+}
+.dishes-bucket {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+
+.dish-boxes {
+  width: 48%;
+  margin-bottom: 20px;
+  border:1px solid orange;
+  background-color: greenyellow;
+  text-align: center;
+  color: black;
+}
+
+.cart-containers {
+  margin-top: 40px;
+}
+
+.cart-item-boxes {
+  border: 1px solid orange;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color:red;
+  color:white;
+}
+.finalize{
+  text-align: center;
+  font-weight: bold;
+}
+.mexican{
+  background-color: yellow;
+}
+h3{
+  background-color: white;
+}
+h4{
+  font-size: larger;
+  text-decoration: underline;
+}
+.org{
+  text-align: center;
+  font-weight: bold;
+}
